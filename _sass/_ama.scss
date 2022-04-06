@@ -1,0 +1,9 @@
+#ama {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    position: relative;
+    margin-bottom: var(--spacing-sm);
+  }
+}

@@ -1,0 +1,36 @@
+#photostream {
+  .photo-year {
+    display: flex;
+    margin-bottom: var(--spacing-lg);
+    h3 {
+      margin-right: var(--spacing-lg);
+    }
+    ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: var(--spacing-sm);
+      grid-row-gap: var(--spacing-sm);
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      
+      li {
+        figure {
+          img {
+            max-width: 100%;
+          }
+      
+          figcaption {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #photostream {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
