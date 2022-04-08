@@ -1,11 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: var(--primary-05);
+  color: #000;
+}
+
 html {
   background: #f5f7f7;
 }
 
 body {
-  font-family:'Muli';
+  font-family:'Mulish';
   color: #444;
   line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--light);
 }
 
 a {
@@ -16,10 +31,22 @@ a {
 
 p a,
 ul a {
-  border-bottom: 2px solid rgba(243, 198, 53, 0.5);
+  border-bottom: 2px solid var(--primary-05);
   transition: all 221ms ease-out;
+  padding-bottom: 1px;
   &:hover {
     color: #222;
-    border-bottom: 3px solid rgba(243, 198, 53, 1);
+    padding-bottom: 0;
+    border-bottom: 3px solid var(--primary);
   }
 }
+
+small {
+  font-size: 0.9rem;
+}
+
+hr {
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+}
+

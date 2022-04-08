@@ -1,0 +1,39 @@
+#colophon main {
+  h3 {
+    margin-bottom: var(--spacing-sm);
+  }
+  ul:not(.unstyled-list) {
+    list-style: none;
+    margin: 0 0 var(--spacing-lg);
+    padding: 0;
+    li {
+      margin-bottom: var(--spacing-sm);
+      strong {
+        display: block;
+        font-size: 0.8rem;
+        color: #999;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #colophon main {
+    ul:not(.unstyled-list) {
+      li {
+        display: flex;
+        // border-bottom: 1px solid #ccc;
+        padding: 0.5rem 0;
+        margin: 0;
+        strong {
+          flex: 0 0 30%;
+          font-size: 1rem;
+          color: #444;
+        }
+      }
+      li:last-child {
+        border: none;
+      }
+    }
+  }
+}

@@ -2,4 +2,9 @@ footer {
   border-top: 1px solid #ccc;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
