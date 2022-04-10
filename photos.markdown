@@ -213,7 +213,7 @@ title: Photostream
       </li>
       <li>
         <figure>
-          <img class="lb" src="/assets/img/photos/PXL_20210724_201505077.-thumbjpg.jpg" alt="The first pulled pork shoulder I ever smoked." />
+          <img class="lb" src="/assets/img/photos/PXL_20210724_201505077-thumb.jpg" alt="The first pulled pork shoulder I ever smoked." />
           <figcaption>The first pulled pork shoulder I ever smoked.</figcaption>
         </figure>
       </li>
